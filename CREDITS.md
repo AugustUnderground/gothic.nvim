@@ -1,0 +1,1 @@
+This colorscheme has been created by [colorscheme_generator.nvim](https://www.github.com/shadmansaleh/colorscheme_generator.nvim)
