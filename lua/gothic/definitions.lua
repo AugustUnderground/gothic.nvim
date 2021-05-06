@@ -329,7 +329,7 @@ local highlights = { Character                              = { fg = palette.col
                    , Identifier                             = { fg = palette.color30, }
                    , Ignore                                 = { fg = palette.color25, }
                    , IncSearch                              = { fg = palette.color32
-                                                              , bg = palette.color37
+                                                              , bg = palette.color40
                                                               , reverse = true
                                                               , }
                    , LightlineLeft_command_0                = { fg = palette.color10
@@ -535,8 +535,8 @@ local highlights = { Character                              = { fg = palette.col
                    , RedrawDebugComposed                    = { bg = palette.color39, }
                    , RedrawDebugNormal                      = { reverse = true }
                    , RedrawDebugRecompose                   = { bg = palette.color16, }
-                   , Search                                 = { fg = palette.color45
-                                                              , bg = palette.color34
+                   , Search                                 = { fg = palette.color41
+                                                              , bg = palette.color0
                                                               , }
                    , SignColumn                             = { fg = palette.color33
                                                               , bg = palette.color10
