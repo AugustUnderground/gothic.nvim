@@ -590,8 +590,8 @@ local highlights = { Character                              = { fg = palette.col
                    , Underlined                             = { fg = palette.color24
                                                               , underline = true 
                                                               , }
-                   , VertSplit                              = { fg = palette.color32
-                                                              , bg = palette.color10
+                   , VertSplit                              = { fg = palette.color14
+                                                              , bg = palette.color14
                                                               , bold = true
                                                               , }
                    , Visual                                 = { inverse = true }
