@@ -1,8 +1,16 @@
 -- Clear old highlights
 local utils = {}
 
-local attr_list = {'bold', 'underline', 'undercurl', 'strikethrough',
-    'reverse', 'inverse', 'italic', 'standout', 'nocombine'}
+local attr_list = { 'bold'
+                  , 'underline'
+                  , 'undercurl'
+                  , 'strikethrough'
+                  , 'reverse'
+                  , 'inverse'
+                  , 'italic'
+                  , 'standout'
+                  , 'nocombine'
+                  , }
 
 function utils.highlight(name, param)
   local options = {'highlight', name}
