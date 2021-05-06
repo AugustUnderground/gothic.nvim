@@ -305,9 +305,11 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bg = palette.color25
                                                               ,    bold = true }
                    , Directory                              = { fg = palette.color34, }
-                   , EndOfBuffer                            = { fg = palette.color25, }
-                   , Error                                  = { fg = palette.color51
-                                                              , bg = palette.color25
+                   , EndOfBuffer                            = { fg = palette.color9
+                                                              , bg = palette.color10
+                                                              , }
+                   , Error                                  = { fg = palette.color25
+                                                              , bg = palette.color30
                                                               , }
                    , ErrorMsg                               = { fg = palette.color36
                                                               , bg = palette.color16
@@ -501,7 +503,8 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bold = true
                                                               , }
                    , Noise                                  = { fg = palette.color22, }
-                   , NonText                                = { fg = palette.color35
+                   , NonText                                = { fg = palette.color9
+                                                              , bg = palette.color10
                                                               , bold = true
                                                               , }
                    , Normal                                 = { fg = palette.color36
@@ -532,8 +535,8 @@ local highlights = { Character                              = { fg = palette.col
                    , RedrawDebugComposed                    = { bg = palette.color39, }
                    , RedrawDebugNormal                      = { reverse = true }
                    , RedrawDebugRecompose                   = { bg = palette.color16, }
-                   , Search                                 = { fg = palette.color32
-                                                              , bg = palette.color37
+                   , Search                                 = { fg = palette.color45
+                                                              , bg = palette.color34
                                                               , }
                    , SignColumn                             = { fg = palette.color33
                                                               , bg = palette.color10
