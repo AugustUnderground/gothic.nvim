@@ -24,5 +24,5 @@ colorscheme gothic
 to your `init.vim`. The lightline scheme is configured by setting:
 
 ```vim
-let g:lightline = { 'colorscheme': 'palenight' }
+let g:lightline = { 'colorscheme': 'gothic' }
 ```
