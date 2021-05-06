@@ -17,6 +17,7 @@ Plug 'augustunderground/gothic.nvim'
 Set activate the color scheme by adding
 
 ```vim
+set termguicolors
 colorscheme gothic
 ```
 
