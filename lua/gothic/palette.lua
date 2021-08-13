@@ -48,20 +48,20 @@ local palette = { color10   = '#0d0d0e'
 
                 , color24   = '#8EA5EB'
                 , color13   = '#7490E7'
-                , color2    = '#5174e1'
-                , color27   = '#466BDF'
+                , color27   = '#5174e1'
+                , color2    = '#466BDF'
                 , color44   = '#2F59DB'
                 , color35   = '#234CCC'
 
-                , color0    = '#6016CD'
-                , color50   = '#690DBF'
-                , color51   = '#7006AF'
-                , color40   = '#74009D'
+                , color40   = '#6016CD'
+                , color51   = '#690DBF'
+                , color34   = '#7006AF'
+                , color0    = '#74009D'
 
-                , color31   = '#0085b0'
+                , color50   = '#0085b0'
                 , color19   = '#00ABE2'
                 , color29   = '#15C6FF'
-                , color34   = '#58D6FF'
+                , color31   = '#58D6FF'
                 , }
 
 return palette

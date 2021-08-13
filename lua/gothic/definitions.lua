@@ -288,7 +288,7 @@ local highlights = { Character                              = { fg = palette.col
                    --                                            , }
                    , CursorColumn                           = { bg = palette.color11, }
                    , CursorLine                             = { bg = palette.color11, }
-                   , CursorLineNr                           = { fg = palette.color30
+                   , CursorLineNr                           = { fg = palette.color8
                                                               , bg = palette.color11
                                                               , bold = true
                                                               , }
@@ -326,7 +326,7 @@ local highlights = { Character                              = { fg = palette.col
                    , Folded                                 = { fg = palette.color25
                                                               , bg = palette.color26
                                                               , }
-                   , Identifier                             = { fg = palette.color30, }
+                   , Identifier                             = { fg = palette.color16, }
                    , Ignore                                 = { fg = palette.color25, }
                    , IncSearch                              = { fg = palette.color32
                                                               , bg = palette.color40
