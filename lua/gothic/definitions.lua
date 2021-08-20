@@ -282,13 +282,13 @@ local highlights = { Character                              = { fg = palette.col
                    , Conceal                                = { fg = palette.color45
                                                               , bg = palette.color46
                                                               , }
-                   , Constant                               = { fg = palette.color50, }
+                   , Constant                               = { fg = palette.color2, }
                    -- , Cursor                                 = { fg = palette.color25
                    --                                            , bg = palette.color32
                    --                                            , }
                    , CursorColumn                           = { bg = palette.color11, }
                    , CursorLine                             = { bg = palette.color11, }
-                   , CursorLineNr                           = { fg = palette.color8
+                   , CursorLineNr                           = { fg = palette.color45
                                                               , bg = palette.color11
                                                               , bold = true
                                                               , }
@@ -547,7 +547,7 @@ local highlights = { Character                              = { fg = palette.col
                    , SpellCap                               = { undercurl = true }
                    , SpellLocal                             = { undercurl = true }
                    , SpellRare                              = { undercurl = true }
-                   , Statement                              = { fg = palette.color22
+                   , Statement                              = { fg = palette.color51
                                                               , bold = true
                                                               , }
                    , Operator                               = { fg = palette.color8 }
@@ -560,7 +560,7 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bg = palette.color37
                                                               , reverse = true
                                                               , }
-                   , String                                 = { fg = palette.color27, }
+                   , String                                 = { fg = palette.color50, }
                    , TSEmphasis                             = { italic = true }
                    , TSNone                                 = { fg = palette.color32, }
                    , TSStrike                               = { strikethrough = true }
@@ -585,7 +585,7 @@ local highlights = { Character                              = { fg = palette.col
                    , Todo                                   = { fg = palette.color25
                                                               , bg = palette.color26
                                                               , }
-                   , Type                                   = { fg = palette.color51
+                   , Type                                   = { fg = palette.color22
                                                               , bold = true 
                                                               , }
                    , Underlined                             = { fg = palette.color24
