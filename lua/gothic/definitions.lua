@@ -309,10 +309,10 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bg = palette.color10
                                                               , }
                    , Error                                  = { fg = palette.color25
-                                                              , bg = palette.color30
+                                                              , bg = palette.color33
                                                               , }
-                   , ErrorMsg                               = { fg = palette.color36
-                                                              , bg = palette.color16
+                   , ErrorMsg                               = { fg = palette.color33
+                                                              , bg = palette.color25
                                                               , }
                    , FloatShadow                            = { bg = palette.color10
                                                               , blend = 80
@@ -535,8 +535,8 @@ local highlights = { Character                              = { fg = palette.col
                    , RedrawDebugComposed                    = { bg = palette.color39, }
                    , RedrawDebugNormal                      = { reverse = true }
                    , RedrawDebugRecompose                   = { bg = palette.color16, }
-                   , Search                                 = { fg = palette.color41
-                                                              , bg = palette.color0
+                   , Search                                 = { fg = palette.color10
+                                                              , bg = palette.color18
                                                               , }
                    , SignColumn                             = { fg = palette.color33
                                                               , bg = palette.color10
@@ -550,6 +550,7 @@ local highlights = { Character                              = { fg = palette.col
                    , Statement                              = { fg = palette.color22
                                                               , bold = true
                                                               , }
+                   , Operator                               = { fg = palette.color8 }
                    , StatusLine                             = { fg = palette.color37
                                                               , bg = palette.color32
                                                               , bold = true
@@ -584,7 +585,7 @@ local highlights = { Character                              = { fg = palette.col
                    , Todo                                   = { fg = palette.color25
                                                               , bg = palette.color26
                                                               , }
-                   , Type                                   = { fg = palette.color22
+                   , Type                                   = { fg = palette.color51
                                                               , bold = true 
                                                               , }
                    , Underlined                             = { fg = palette.color24
@@ -595,7 +596,9 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bold = true
                                                               , }
                    , Visual                                 = { inverse = true }
-                   , WarningMsg                             = { fg = palette.color16, }
+                   , WarningMsg                             = { fg = palette.color10
+                                                              , bg = palette.color27
+                                                              , }
                    , WildMenu                               = { fg = palette.color37
                                                               , bg = palette.color41, }
                    , jsBlockLabel                           = { fg = palette.color32, }
@@ -826,7 +829,7 @@ local highlights = { Character                              = { fg = palette.col
                    , NvimUnaryMinus                         = {link = 'NvimUnaryOperator'}
                    , NvimUnaryOperator                      = {link = 'NvimOperator'}
                    , NvimUnaryPlus                          = {link = 'NvimUnaryOperator'}
-                   , Operator                               = {link = 'Statement'}
+                   -- , Operator                               = {link = 'Statement'}
                    , PreCondit                              = {link = 'PreProc'}
                    , QuickFixLine                           = {link = 'Search'}
                    , QuickScopeCursor                       = {link = 'Cursor'}
