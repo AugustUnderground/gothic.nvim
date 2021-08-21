@@ -521,7 +521,7 @@ local highlights = { Character                              = { fg = palette.col
                                                               , bg = palette.color37
                                                               , }
                    , PmenuThumb                             = { bg = palette.color23, }
-                   , PreProc                                = { fg = palette.color22, }
+                   , PreProc                                = { fg = palette.color13, }
                    , Question                               = { fg = palette.color39
                                                               , bold = true
                                                               , }
@@ -547,10 +547,8 @@ local highlights = { Character                              = { fg = palette.col
                    , SpellCap                               = { undercurl = true }
                    , SpellLocal                             = { undercurl = true }
                    , SpellRare                              = { undercurl = true }
-                   , Statement                              = { fg = palette.color51
-                                                              , bold = true
-                                                              , }
-                   , Operator                               = { fg = palette.color8 }
+                   , Statement                              = { fg = palette.color51, }
+                   , Operator                               = { fg = palette.color8, }
                    , StatusLine                             = { fg = palette.color37
                                                               , bg = palette.color32
                                                               , bold = true
