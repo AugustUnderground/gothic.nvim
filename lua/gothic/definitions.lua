@@ -829,7 +829,6 @@ local highlights = { Character                              = { fg = palette.col
                    , NvimUnaryMinus                         = {link = 'NvimUnaryOperator'}
                    , NvimUnaryOperator                      = {link = 'NvimOperator'}
                    , NvimUnaryPlus                          = {link = 'NvimUnaryOperator'}
-                   -- , Operator                               = {link = 'Statement'}
                    , PreCondit                              = {link = 'PreProc'}
                    , QuickFixLine                           = {link = 'Search'}
                    , QuickScopeCursor                       = {link = 'Cursor'}
