@@ -10,9 +10,9 @@ local highlights = { Character                              = { fg = palette.col
                    , CocCursorTransparent                   = { blend = 100
                                                               , strikethrough = true
                                                               , }
-                   , CocErrorSign                           = { fg = palette.color16, }
-                   , CocHintSign                            = { fg = palette.color19, }
-                   , CocInfoSign                            = { fg = palette.color18, }
+                   , CocErrorSign                           = { fg = palette.color37, }
+                   , CocHintSign                            = { fg = palette.color26, }
+                   , CocInfoSign                            = { fg = palette.color40, }
                    , CocListBgBlack                         = { bg = palette.color1, }
                    , CocListBgBlue                          = { bg = palette.color2, }
                    , CocListBgCyan                          = { bg = palette.color6, }
@@ -541,7 +541,7 @@ local highlights = { Character                              = { fg = palette.col
                    , SignColumn                             = { fg = palette.color33
                                                               , bg = palette.color10
                                                               , }
-                   , Special                                = { fg = palette.color26, }
+                   , Special                                = { fg = palette.color7, }
                    , SpecialKey                             = { fg = palette.color34, }
                    , SpellBad                               = { undercurl = true }
                    , SpellCap                               = { undercurl = true }
